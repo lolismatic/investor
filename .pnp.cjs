@@ -28,12 +28,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@angular-devkit/build-angular", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.5"],\
+          ["@angular/animations", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
+          ["@angular/cdk", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.7"],\
           ["@angular/cli", "npm:19.2.5"],\
           ["@angular/common", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
           ["@angular/compiler", "npm:19.2.4"],\
           ["@angular/compiler-cli", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
           ["@angular/core", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
           ["@angular/forms", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
+          ["@angular/material", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.7"],\
           ["@angular/platform-browser", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
           ["@angular/platform-browser-dynamic", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
           ["@angular/router", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
@@ -274,6 +277,29 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@angular/animations", [\
+      ["npm:19.2.4", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/@angular-animations-npm-19.2.4-3ff6825cbc-10c0.zip/node_modules/@angular/animations/",\
+        "packageDependencies": [\
+          ["@angular/animations", "npm:19.2.4"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4", {\
+        "packageLocation": "./.yarn/__virtual__/@angular-animations-virtual-ba6bc527e3/3/AppData/Local/Yarn/Berry/cache/@angular-animations-npm-19.2.4-3ff6825cbc-10c0.zip/node_modules/@angular/animations/",\
+        "packageDependencies": [\
+          ["@angular/animations", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
+          ["@angular/core", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
+          ["@types/angular__core", null],\
+          ["tslib", "npm:2.8.1"]\
+        ],\
+        "packagePeers": [\
+          "@angular/core",\
+          "@types/angular__core"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@angular/build", [\
       ["npm:19.2.5", {\
         "packageLocation": "../../AppData/Local/Yarn/Berry/cache/@angular-build-npm-19.2.5-a9442942a4-10c0.zip/node_modules/@angular/build/",\
@@ -363,6 +389,38 @@ const RAW_RUNTIME_STATE =
           "postcss",\
           "tailwindcss",\
           "typescript"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@angular/cdk", [\
+      ["npm:19.2.7", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/@angular-cdk-npm-19.2.7-73d1c143bb-10c0.zip/node_modules/@angular/cdk/",\
+        "packageDependencies": [\
+          ["@angular/cdk", "npm:19.2.7"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.7", {\
+        "packageLocation": "./.yarn/__virtual__/@angular-cdk-virtual-31250116b0/3/AppData/Local/Yarn/Berry/cache/@angular-cdk-npm-19.2.7-73d1c143bb-10c0.zip/node_modules/@angular/cdk/",\
+        "packageDependencies": [\
+          ["@angular/cdk", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.7"],\
+          ["@angular/common", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
+          ["@angular/core", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
+          ["@types/angular__common", null],\
+          ["@types/angular__core", null],\
+          ["@types/rxjs", null],\
+          ["parse5", "npm:7.2.1"],\
+          ["rxjs", "npm:7.8.2"],\
+          ["tslib", "npm:2.8.1"]\
+        ],\
+        "packagePeers": [\
+          "@angular/common",\
+          "@angular/core",\
+          "@types/angular__common",\
+          "@types/angular__core",\
+          "@types/rxjs",\
+          "rxjs"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -526,6 +584,49 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@angular/material", [\
+      ["npm:19.2.7", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/@angular-material-npm-19.2.7-7b2be48021-10c0.zip/node_modules/@angular/material/",\
+        "packageDependencies": [\
+          ["@angular/material", "npm:19.2.7"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.7", {\
+        "packageLocation": "./.yarn/__virtual__/@angular-material-virtual-ea7597f4af/3/AppData/Local/Yarn/Berry/cache/@angular-material-npm-19.2.7-7b2be48021-10c0.zip/node_modules/@angular/material/",\
+        "packageDependencies": [\
+          ["@angular/material", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.7"],\
+          ["@angular/cdk", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.7"],\
+          ["@angular/common", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
+          ["@angular/core", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
+          ["@angular/forms", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
+          ["@angular/platform-browser", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
+          ["@types/angular__cdk", null],\
+          ["@types/angular__common", null],\
+          ["@types/angular__core", null],\
+          ["@types/angular__forms", null],\
+          ["@types/angular__platform-browser", null],\
+          ["@types/rxjs", null],\
+          ["rxjs", "npm:7.8.2"],\
+          ["tslib", "npm:2.8.1"]\
+        ],\
+        "packagePeers": [\
+          "@angular/cdk",\
+          "@angular/common",\
+          "@angular/core",\
+          "@angular/forms",\
+          "@angular/platform-browser",\
+          "@types/angular__cdk",\
+          "@types/angular__common",\
+          "@types/angular__core",\
+          "@types/angular__forms",\
+          "@types/angular__platform-browser",\
+          "@types/rxjs",\
+          "rxjs"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@angular/platform-browser", [\
       ["npm:19.2.4", {\
         "packageLocation": "../../AppData/Local/Yarn/Berry/cache/@angular-platform-browser-npm-19.2.4-fa0b679faa-10c0.zip/node_modules/@angular/platform-browser/",\
@@ -538,7 +639,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@angular-platform-browser-virtual-a11faec909/3/AppData/Local/Yarn/Berry/cache/@angular-platform-browser-npm-19.2.4-fa0b679faa-10c0.zip/node_modules/@angular/platform-browser/",\
         "packageDependencies": [\
           ["@angular/platform-browser", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
-          ["@angular/animations", null],\
+          ["@angular/animations", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
           ["@angular/common", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
           ["@angular/core", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
           ["@types/angular__animations", null],\
@@ -7570,12 +7671,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["investor", "workspace:."],\
           ["@angular-devkit/build-angular", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.5"],\
+          ["@angular/animations", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
+          ["@angular/cdk", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.7"],\
           ["@angular/cli", "npm:19.2.5"],\
           ["@angular/common", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
           ["@angular/compiler", "npm:19.2.4"],\
           ["@angular/compiler-cli", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
           ["@angular/core", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
           ["@angular/forms", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
+          ["@angular/material", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.7"],\
           ["@angular/platform-browser", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
           ["@angular/platform-browser-dynamic", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
           ["@angular/router", "virtual:cdffc3161735abcde698d7ebbf3ee2c991e409acd7b9a0d7040c4c80676e3f0dbdc3c4e0d4ef3092ef5c5eff70f737c2caba5efaffe6659a3375914301c929c2#npm:19.2.4"],\
