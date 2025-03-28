@@ -60,7 +60,7 @@ import { MatInputModule } from '@angular/material/input';
           [min]="0"
           matInput
         />
-        <mat-hint>Taxa de administrare se aplica dupa dobanda</mat-hint>
+        <mat-hint>Taxa de administrare se aplica dupa dobanda. (ex: 0.08%/luna => 0.96%/an)</mat-hint>
       </mat-form-field>
     </div>
     <table>
@@ -99,8 +99,9 @@ import { MatInputModule } from '@angular/material/input';
           </td>
           <td>
             Total profit<br />
-            dupa impozit pe venit<br />
-            <b>{{ finalProfitAfterTaxes() }}</b>
+            dupa impozit pe venit/%profit<br />
+            <b>{{ finalProfitAfterTaxes() }}</b>/
+            <b>{{ procentProfitAfterTaxes() }}</b>
           </td>
         </tr>
       </tfoot>
@@ -191,6 +192,13 @@ export class AppComponent {
       0.9
     ).toFixed(2);
   });
+
+  readonly procentProfitAfterTaxes = computed(() => {
+    const rows = this.rows();
+    const profit = (parseFloat(rows[rows.length - 1].finalCapital) - this.totalContributions()) * 0.9;
+
+    return ((profit / this.totalContributions()) * 100).toFixed(2);
+  })
 
   computeRows(values: {
     initialCapital: number;
